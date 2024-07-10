@@ -6,7 +6,9 @@
 }
 
 .header {
-    padding: 0;
+    padding: 15px;
+    padding-left: 250px;
+    padding-right: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,21 +17,57 @@
 .right-links {
     display: flex;
     justify-content: flex-end;
-    padding-right: 120px;
-    font-size: 14px;
+    font-size: 18px;
+}
+
+.right-links, .info .left h3{
     color: #E5E7EB;
 }
 
 .logo img{
-    padding-left: 120px;
     height: 54px;
     width: auto;
 } 
 
 ul {
     display: flex;
-    gap: 8px;
+    gap: 15px;
     padding: 0;
     list-style: none;
 }
 
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+
+
+.info .left h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+button {
+    background-color: rgb(88, 123, 245);
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 12px;
+
+}
+
+.right img {
+    height: 200px;
+    width: 400px;
+    padding-left: 70px;
+}
