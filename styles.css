@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+}
+.first {
+    background-color: #1F2937;
+}
+
+.header {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-links {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 120px;
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.logo img{
+    padding-left: 120px;
+    height: 54px;
+    width: auto;
+} 
+
+ul {
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    list-style: none;
+}
+
