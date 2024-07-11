@@ -183,3 +183,13 @@ button {
 .subtitle {
     font-size: 18px;
 }
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
