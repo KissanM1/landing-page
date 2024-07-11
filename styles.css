@@ -139,3 +139,17 @@ button {
     font-size: 25px;
     font-weight: 900;
 }
+
+.fourth {
+    display: flex;
+    padding: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: center;
+} 
+
+.action {
+    display: flex;
+    align-items: center;
+}
+
