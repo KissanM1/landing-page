@@ -128,6 +128,7 @@ button {
 .full-context {
     display: flex;
     flex-direction: column;
+    gap: 15px
 }
 
 .quote {
@@ -151,5 +152,34 @@ button {
 .action {
     display: flex;
     align-items: center;
+    background-color: #3882f6;
+    padding: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 270px;
+    border-radius: 5px;
 }
 
+.action .right {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.right button {
+    margin: 0;
+    padding: 0;
+}
+
+.action .left {
+    color: #E5E7EB;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.subtitle {
+    font-size: 18px;
+}
