@@ -50,7 +50,6 @@ ul {
 }
 
 
-
 .info .left h1 {
     color: #F9FAF8;
     font-size: 48px;
@@ -94,6 +93,7 @@ button {
     display: flex;
     padding: 50px;
     gap: 45px;
+    flex-wrap: wrap ;
 }
 
 .info-section {
@@ -192,4 +192,50 @@ button {
     padding: 20px;
     background-color: #1F2937;
     color: #E5E7EB;
+}
+/* Responsive design */
+@media (max-width: 1200px) {
+    .header, .info, .third, .fourth {
+        padding-left: calc(8vw + 15px);
+        padding-right: calc(8vw + 15px);
+    }
+}
+
+@media (max-width: 768px) {
+    .header, .info, .third, .fourth {
+        padding-left: calc(6vw + 10px);
+        padding-right: calc(6vw + 10px);
+    }
+
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info .right {
+        padding-left: 0;
+    }
+
+    .right img {
+        max-width: 80%;
+    }
+
+    .action {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header, .info, .third, .fourth {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .right img {
+        max-width: 100vw;
+        max-height: auto;
+        padding-left: 0px;
+    }
 }
